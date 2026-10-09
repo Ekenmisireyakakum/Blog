@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Tanova Blog — a personal space for sharing practical knowledge, technology and ideas.">
+    <title>About — Tanova Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header" role="banner">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo-link" aria-label="Tanova Blog home">
+                    TAN<span>OVA</span>
+                </a>
+                <nav class="desktop-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#categories">Categories</a>
+                    <a href="about.html" aria-current="page">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="bookmarks.html">Bookmarks</a>
+                    <a href="publish.html">Write</a>
+                </nav>
+                <div class="nav-actions">
+                    <button class="icon-btn" id="search-btn" aria-label="Open search">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    </button>
+                    <button class="icon-btn menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+            <a href="index.html">Home</a>
+            <a href="index.html#categories">Categories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="bookmarks.html">Bookmarks</a>
+            <a href="publish.html">Write</a>
+        </nav>
+    </header>
+
+    <div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search articles">
+        <div class="search-box">
+            <div class="search-box-header">
+                <div class="search-input-wrap">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    <input type="search" id="search-input" placeholder="Search articles..." autocomplete="off" aria-label="Search articles">
+                </div>
+                <button id="search-close" aria-label="Close search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+            </div>
+            <div class="search-results" id="search-results" role="list" aria-live="polite"></div>
+        </div>
+    </div>
+
+    <main class="about-page" id="main-content">
+        <div class="container">
+
+            <div class="about-hero">
+                <div class="about-image-wrap">
+                    <img src="images/Profile.png" alt="Tanova — author photo">
+                </div>
+
+                <div class="about-text">
+                    <h1>Hi, I'm Tanova</h1>
+                    <p class="subtitle">Writer, Developer &amp; Lifelong Learner</p>
+
+                    <p>I started Tanova Blog as a personal space to think out loud — to share what I am learning, what I am building, and what I find genuinely useful. Not polished content for algorithms, just honest writing for real people.</p>
+
+                    <p>My background is in web development, but I write about a lot more than code. I am deeply interested in how people learn, how habits shape outcomes, and how small, consistent actions build remarkable things over time.</p>
+
+                    <p>Every article on this blog is something I have either lived through, studied carefully, or built with my own hands. I do not publish things I would not want to read myself.</p>
+
+                    <div class="skills-list" aria-label="Skills and interests">
+                        <span class="skill-tag">HTML &amp; CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Reading</span>
+                        <span class="skill-tag">Writing</span>
+                        <span class="skill-tag">Learning Systems</span>
+                        <span class="skill-tag">Productivity</span>
+                        <span class="skill-tag">Personal Growth</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-mission">
+                <h2 class="mission-heading">The Mission</h2>
+                <p>Tanova Blog is a personal space for sharing practical knowledge, technology, experiences and ideas. The goal is simple: write things that are genuinely useful to real people, without the fluff that fills most content online.</p>
+                <p>Whether you are a developer just starting out, someone trying to build better habits, or just a curious reader — there is something here for you. I write slowly, carefully, and only about things I actually care about.</p>
+                <p>The blog will keep growing as I do. Every article is a moment of clarity captured in writing.</p>
+                <a href="index.html" class="btn btn-primary">Read My Articles</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo-link">TAN<span>OVA</span></a>
+                    <p>Stories, ideas and knowledge that matter.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="bookmarks.html">Bookmarks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="index.html#categories">Technology</a></li>
+                        <li><a href="index.html#categories">Web Development</a></li>
+                        <li><a href="index.html#categories">Education</a></li>
+                        <li><a href="index.html#categories">Lifestyle</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>More</h4>
+                    <ul>
+                        <li><a href="index.html#newsletter">Newsletter</a></li>
+                        <li><a href="contact.html">Get in Touch</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Tanova Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/posts.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
